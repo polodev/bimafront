@@ -3,20 +3,147 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <title>BimaBD.com</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-<section class="section">
-    <div class="container">
-        <h1 class="title">
-            Hello World
-        </h1>
-        <p class="subtitle">
-            My first website with <strong>Bulma</strong>!
-        </p>
+
+
+<nav id="navbar" class="navbar has-shadow is-spaced">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <span class="tag is-large is-primary">
+        BIMABD
+      </span>
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+      <span class="icon" style="color: #4267b2;">
+        <i class="fab fa-lg fa-facebook"></i>
+      </span>
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+      <span class="icon" style="color: #55acee;">
+        <i class="fab fa-lg fa-twitter"></i>
+      </span>
+    </a>
+
+    <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+  </div>
+
+  <div id="navMenuDocumentation" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item bd-navbar-item-documentation  is-active" href="/documentation">
+        <span class="icon has-text-primary">
+          <i class="fas fa-home"></i>
+        </span>
+        <span>
+          Home
+        </span>
+      </a>
+
+        <a class="navbar-item bd-navbar-item-videos " href="travel-insurance.html">
+          <span class="icon has-text-success">
+            <i class="fas fa-plane"></i>
+          </span>
+
+          <span>Travel Insurance</span>
+        </a>
+
+        <a class="navbar-item bd-navbar-item-videos " href="travel-insurance.html">
+          <span class="icon has-text-danger">
+            <i class="fas fa-car"></i>
+          </span>
+          <span>Motor Insurance</span>
+        </a>
+
+
+    </div>
+
+    <div class="navbar-end">
+      <a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://github.com/jgthms/bulma" target="_blank">
+        <span class="icon" style="color: #4267b2;">
+          <i class="fab fa-lg fa-facebook"></i>
+        </span>
+      </a>
+
+      <a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+        <span class="icon" style="color: #55acee;">
+          <i class="fab fa-lg fa-twitter"></i>
+        </span>
+      </a>
+
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<div id="wrapper">
+
+
+
+<section class="hero is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+
+      <p class="title">
+        BimaBD
+      </p>
+      <p class="subtitle">
+        Insurance Made Easy. <a href="#" class="button is-secondary">Learn more</a>
+      </p>
+
+    </div>
+  </div>
 </section>
+<section id="widget">
+  <div class="container">
+    <div class="px-4 px-md-0 py-4">
+
+    <div class="columns">
+      <div class="column">
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem, aut esse veritatis cum similique eaque obcaecati dolor alias, doloribus, optio possimus magni voluptatum deserunt iure. Veniam nisi iusto iure.</p>
+        </div>
+      </div>
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi natus, ea! Alias impedit vel fugiat itaque deleniti molestias sunt enim natus minus. Itaque repellendus excepturi est iusto dolores, sunt illum!</p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <div class="text-center">
+        <div class="title">Bimabd.com. All rights reserved</div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
